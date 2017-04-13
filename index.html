@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <title>@I_Otsuki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html,
+        body,
+        article,
+        section,
+        figure,
+        img {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+            max-width: 100%;
+        }
+        
+        html,
+        body {
+            min-width: 100%;
+            min-height: 100%;
+        }
+        
+        html {
+            font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Nimbus Sans', 'Swiss 721', 'Gothic 720', sans-serif;
+            font-weight: normal;
+            line-height: 1;
+            text-align: center;
+        }
+        
+        body {
+            background-color: #111;
+            background-image: linear-gradient(-10deg, rgba(0, 140, 100, .15) -20%, rgba(0, 140, 100, 0) 40%), radial-gradient(circle farthest-corner at 10% 0%, rgba(0, 50, 160, .2) 0%, rgba(0, 50, 160, 0) 60%);
+            background-attachment: fixed;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        article {
+            margin: 2rem;
+        }
+        
+        img {
+            display: block;
+        }
+        
+        h1 {
+            font-weight: lighter;
+            margin: 2rem 0;
+            padding: 0;
+            font-size: 2rem;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: inherit;
+            font-weight: inherit;
+        }
+        
+        footer {
+            font-size: .8rem;
+            line-height: 2rem;
+            margin: 0;
+            padding: 0;
+            margin-top: -2rem;
+            color: rgba(255, 255, 255, .7);
+        }
+        
+        .Avatar,
+        .Strips {
+            border-radius: .1rem;
+            overflow: hidden;
+            box-shadow: 0 .1rem .5rem .2rem rgba(0, 0, 0, .3);
+        }
+        
+        .TagLine {
+            margin: 2rem;
+            padding: 0;
+            font-size: 1.5rem;
+        }
+        
+        .Strips,
+        .Strips li {
+            display: block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-indent: 0;
+        }
+        
+        .Strips a {
+            display: block;
+            margin: 0;
+            padding: 1rem;
+            box-sizing: border-box;
+            border: none;
+            filter: grayscale(1) brightness(.5);
+            background-color: #333;
+            text-align: left;
+            text-indent: 0;
+            transition-property: filter, text-indent, opacity;
+            transition-duration: .1s;
+            transition-delay: 0s;
+            transition-timing-function: linear;
+            opacity: .8;
+        }
+        
+        .Strips a:hover {
+            text-indent: .3rem;
+            filter: grayscale(0) brightness(1);
+            transition-duration: 0s;
+            opacity: 1
+        }
+        
+        .Strips a:active {
+            filter: grayscale(0) brightness(1.2);
+        }
+        
+        .Strips a[href^="https://github.com/"] {
+            background-color: #0366d6;
+        }
+        
+        .Strips a[href^="http://d.hatena.ne.jp/"] {
+            background-color: #1841ce;
+        }
+        
+        .Strips a[href^="https://twitter.com/"] {
+            background-color: #1da1f2;
+        }
+        
+        .Strips a[href^="https://i-otsuki.deviantart.com/"] {
+            background-color: #475c4d;
+        }
+        
+        .Strips a[href^="https://note.mu/"] {
+            background-color: #41c9b4;
+        }
+        
+        .Strips a[href^="https://ask.fm/"] {
+            background-color: #ce3552;
+        }
+        
+        .Strips a[href^="http://steamcommunity.com/"] {
+            background-color: #376d91;
+        }
+        
+        .Strips a[href^="https://amzn.to/"] {
+            background-color: #f89820;
+        }
+        
+        .Strips a[href^="http://favedge.net/"] {
+            background-color: #537083;
+        }
+    </style>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-56102265-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <article>
+        <section id="profile">
+            <figure class="Avatar">
+                <img src="avatar.png" alt="">
+            </figure>
+            <h1><span class="ScreenName">@I_Otsuki</span> <span class="FullName">(Izumi Otsuki)</span></h1>
+            <p class="TagLine">Fav'em all.</p>
+        </section>
+        <section id="links">
+            <ul class="Strips">
+                <li><a href="https://github.com/I-Otsuki/" target="_blank">GitHub</a></li>
+                <li><a href="http://d.hatena.ne.jp/I_Otsuki/" target="_blank">Hatena Diary</a></li>
+                <li><a href="https://twitter.com/I_Otsuki" target="_blank">Twitter</a></li>
+                <li><a href="https://i-otsuki.deviantart.com/" target="_blank">DeviantArt</a></li>
+                <li><a href="https://note.mu/i_otsuki" target="_blank">note</a></li>
+                <li><a href="https://ask.fm/I_Otsuki" target="_blank">ASKfm</a></li>
+                <li><a href="http://steamcommunity.com/id/I_Otsuki" target="_blank">Steam</a></li>
+                <li><a href="https://amzn.to/9g2ih2" target="_blank">Amazon.co.jp</a></li>
+                <li><a href="http://favedge.net/" target="_blank">FavEdge</a></li>
+            </ul>
+        </section>
+    </article>
+    <footer>© Izumi Otsuki</footer>
+</body>
+
+</html>
