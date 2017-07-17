@@ -19,20 +19,20 @@
             border: none;
             max-width: 100%;
         }
-        
+
         html,
         body {
             min-width: 100%;
             min-height: 100%;
         }
-        
+
         html {
             font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Nimbus Sans', 'Swiss 721', 'Gothic 720', sans-serif;
             font-weight: normal;
             line-height: 1;
             text-align: center;
         }
-        
+
         body {
             background-color: #111;
             background-image: linear-gradient(-10deg, rgba(0, 140, 100, .15) -20%, rgba(0, 140, 100, 0) 40%), radial-gradient(circle farthest-corner at 10% 0%, rgba(0, 50, 160, .2) 0%, rgba(0, 50, 160, 0) 60%), radial-gradient(circle farthest-corner at 70% -10%, rgba(200, 50, 0, .2) 0%, rgba(200, 50, 0, 0) 40%);
@@ -42,28 +42,28 @@
             flex-direction: column;
             align-items: center;
         }
-        
+
         article {
             margin: 2rem;
         }
-        
+
         img {
             display: block;
         }
-        
+
         h1 {
             font-weight: lighter;
             margin: 2rem 0;
             padding: 0;
             font-size: 2rem;
         }
-        
+
         a {
             color: inherit;
             text-decoration: inherit;
             font-weight: inherit;
         }
-        
+
         footer {
             font-size: .8rem;
             line-height: 2rem;
@@ -72,20 +72,20 @@
             margin-top: -2rem;
             color: rgba(255, 255, 255, .7);
         }
-        
+
         .Avatar,
         .Strips {
             border-radius: .1rem;
             overflow: hidden;
             box-shadow: 0 .1rem .5rem .2rem rgba(0, 0, 0, .3);
         }
-        
+
         .TagLine {
             margin: 2rem;
             padding: 0;
             font-size: 1.5rem;
         }
-        
+
         .Strips,
         .Strips li {
             display: block;
@@ -94,7 +94,7 @@
             margin: 0;
             text-indent: 0;
         }
-        
+
         .Strips a {
             display: block;
             margin: 0;
@@ -112,73 +112,122 @@
             opacity: .8;
         }
 
-        .Strips :nth-child(2n) a {
-            filter: grayscale(1) brightness(.6);
-        }
-        
         .Strips a:hover {
             text-indent: .3rem;
             filter: grayscale(0) brightness(1);
             transition-duration: 0s;
             opacity: 1
         }
-        
+
         .Strips a:active {
             filter: grayscale(0) brightness(1.2);
         }
-        
+
         .Strips a[href^="https://github.com/"] {
             background-color: #0366d6;
         }
-        
+
         .Strips a[href^="http://d.hatena.ne.jp/"] {
             background-color: #1841ce;
         }
-        
+
         .Strips a[href^="https://twitter.com/"] {
             background-color: #1da1f2;
+        }
+
+        .Strips a[href^="http://twilog.org/"] {
+            background-color: #098cd6;
+        }
+
+        .Strips a[href^="http://favolog.org/"] {
+            background-color: #bfbf30;
+        }
+
+        .Strips a[href^="http://favstar.fm/"] {
+            background-color: #006dcc;
+        }
+
+        .Strips a[href^="https://togetter.com/"] {
+            background-color: #68bbb0;
         }
 
         .Strips a[href^="https://foursquare.com/"] {
             background-color: #f94877;
         }
-        
+
         .Strips a[href^="https://i-otsuki.deviantart.com/"] {
             background-color: #475c4d;
         }
-        
+
         .Strips a[href^="https://note.mu/"] {
             background-color: #41c9b4;
         }
-        
+
         .Strips a[href^="https://ask.fm/"] {
             background-color: #ce3552;
         }
-        
+
         .Strips a[href^="https://soundcloud.com/"] {
             background-color: #ff5500;
         }
-        
+
+        .Strips a[href^="https://pixiv.me/"],
+        .Strips a[href^="https://www.pixiv.net/"] {
+            background-color: #0096db;
+        }
+
         .Strips a[href^="http://steamcommunity.com/"] {
             background-color: #376d91;
         }
-        
+
+        .Strips a[href^="https://account.xbox.com/"] {
+            background-color: #107c10;
+        }
+
         .Strips a[href^="skype:"] {
             background-color: #00aff0;
         }
-        
+
+        .Strips a[href^="https://discordapp.com/"] {
+            background-color: #7289da;
+        }
+
         .Strips a[href^="https://about.me/"] {
             background-color: #2b9d85;
         }
-        
+
+        .Strips a[href^="https://www.youtube.com/"] {
+            background-color: #cc181e;
+        }
+
         .Strips a[href^="https://www.instagram.com/"] {
             background-color: #3f729b;
         }
-        
+
+        .Strips a[href^="http://mixi.jp/"] {
+            background-color: #e0c074;
+        }
+
+        .Strips a[href^="http://www.ustream.tv/"] {
+            background-color: #3388ff;
+        }
+
+        .Strips a[href^="https://www.twitch.tv/"] {
+            background-color: #4b367c;
+        }
+
+        .Strips a[href^="https://bitbucket.org/"] {
+            background-color: #205081;
+        }
+
+        .Strips a[href^="https://icq.com/"] {
+            background-color: #7ebd00;
+        }
+
         .Strips a[href^="https://amzn.to/"] {
             background-color: #f89820;
         }
-        
+
         .Strips a[href^="http://favedge.net/"] {
             background-color: #537083;
         }
@@ -211,21 +260,51 @@
                 <li><a href="https://github.com/I-Otsuki/" target="_blank">GitHub</a></li>
                 <li><a href="http://d.hatena.ne.jp/I_Otsuki/" target="_blank">Hatena Diary</a></li>
                 <li><a href="https://twitter.com/I_Otsuki" target="_blank">Twitter</a></li>
+                <li><a href="http://twilog.org/I_Otsuki" target="_blank">twilog</a></li>
+                <li><a href="http://favolog.org/I_Otsuki" target="_blank">favolog</a></li>
+                <li><a href="http://favstar.fm/users/I_Otsuki/" target="_blank">Favstar</a></li>
+                <li><a href="https://togetter.com/id/I_Otsuki" target="_blank">Togetter</a></li>
                 <li><a href="https://twitter.com/Izumi_Otsuki" target="_blank">Twitter</a></li>
+                <li><a href="http://twilog.org/Izumi_Otsuki" target="_blank">twilog</a></li>
+                <li><a href="http://favolog.org/Izumi_Otsuki" target="_blank">favolog</a></li>
+                <li><a href="http://favstar.fm/users/Izumi_Otsuki/" target="_blank">Favstar</a></li>
                 <li><a href="https://twitter.com/I_R_Kirishima" target="_blank">Twitter</a></li>
+                <li><a href="http://twilog.org/I_R_Kirishima" target="_blank">twilog</a></li>
+                <li><a href="http://favolog.org/I_R_Kirishima" target="_blank">favolog</a></li>
+                <li><a href="http://favstar.fm/users/I_R_Kirishima/" target="_blank">Favstar</a></li>
                 <li><a href="https://twitter.com/I_Renzan_K" target="_blank">Twitter</a></li>
+                <li><a href="http://twilog.org/I_Renzan_K" target="_blank">twilog</a></li>
+                <li><a href="http://favolog.org/I_Renzan_K" target="_blank">favolog</a></li>
+                <li><a href="http://favstar.fm/users/I_Renzan_K/" target="_blank">Favstar</a></li>
                 <li><a href="https://twitter.com/Izumi_R_K" target="_blank">Twitter</a></li>
+                <li><a href="http://twilog.org/Izumi_R_K" target="_blank">twilog</a></li>
+                <li><a href="http://favolog.org/Izumi_R_K" target="_blank">favolog</a></li>
+                <li><a href="http://favstar.fm/users/Izumi_R_K/" target="_blank">Favstar</a></li>
                 <li><a href="https://twitter.com/I_Henta" target="_blank">Twitter</a></li>
+                <li><a href="http://twilog.org/I_Henta" target="_blank">twilog</a></li>
+                <li><a href="http://favolog.org/I_Henta" target="_blank">favolog</a></li>
+                <li><a href="http://favstar.fm/users/I_Henta/" target="_blank">Favstar</a></li>
                 <li><a href="https://twitter.com/Ishin_H" target="_blank">Twitter</a></li>
+                <li><a href="http://twilog.org/Ishin_H" target="_blank">twilog</a></li>
+                <li><a href="http://favolog.org/Ishin_H" target="_blank">favolog</a></li>
+                <li><a href="http://favstar.fm/users/Ishin_H/" target="_blank">Favstar</a></li>
                 <li><a href="https://foursquare.com/i_otsuki" target="_blank">Foursquare</a></li>
                 <li><a href="https://i-otsuki.deviantart.com/" target="_blank">DeviantArt</a></li>
                 <li><a href="https://note.mu/i_otsuki" target="_blank">note</a></li>
                 <li><a href="https://ask.fm/I_Otsuki" target="_blank">ASKfm</a></li>
                 <li><a href="https://soundcloud.com/i_otsuki" target="_blank">SoundCloud</a></li>
+                <li><a href="https://pixiv.me/i_otsuki" target="_blank">pixiv</a></li>
                 <li><a href="http://steamcommunity.com/id/I_Otsuki" target="_blank">Steam</a></li>
+                <li><a href="https://account.xbox.com/en-us/profile?gamertag=I%20Otsuki" target="_blank">Xbox Live</a></li>
                 <li><a href="skype:m1zum10?chat">Skype</a></li>
                 <li><a href="https://about.me/I_Otsuki" target="_blank">about.me</a></li>
+                <li><a href="https://www.youtube.com/channel/UCksAeer6ciVO8_N8DYpnPcA" target="_blank">YouTube</a></li>
                 <li><a href="https://www.instagram.com/I_Otsuki/" target="_blank">Instagram</a></li>
+                <li><a href="http://mixi.jp/show_profile.pl?id=20591751" target="_blank">mixi</a></li>
+                <li><a href="http://www.ustream.tv/channel/i-otsuki" target="_blank">USTREAM</a></li>
+                <li><a href="https://www.twitch.tv/i_otsuki" target="_blank">Twitch</a></li>
+                <li><a href="https://bitbucket.org/I_Otsuki/" target="_blank">Bitbucket</a></li>
+                <li><a href="https://icq.com/people/641951169" target="_blank">ICQ</a></li>
                 <li><a href="https://amzn.to/9g2ih2" target="_blank">Amazon.co.jp</a></li>
                 <li><a href="http://favedge.net/" target="_blank">FavEdge</a></li>
                 <li><a href="http://nohotee.moe.hm/izmizki/" target="_blank">Izp2</a></li>
