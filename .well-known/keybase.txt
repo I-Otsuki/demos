@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/i_otsuki
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://i-otsuki.github.io
+  * I am i_otsuki (https://keybase.io/i_otsuki) on keybase.
+  * I have a public key ASB3lCCp6ilEQqIT1I1DLaHTw7Rjq6D-2FXNxob4I-frgQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202eee13360cd503ce329f68d67d02d395c7c33792d90da08ce0a6d7f1ba1fe1f60a",
+      "host": "keybase.io",
+      "kid": "0120779420a9ea294442a213d48d432da1d3c3b463aba0fed855cdc686f823e7eb810a",
+      "uid": "09cdfea1bdb6cb2751fa6c88f3738019",
+      "username": "i_otsuki"
+    },
+    "merkle_root": {
+      "ctime": 1501346032,
+      "hash": "105a923468285f4837751b0520eff0bd4054b431d30bffe33b8053aea0d0a08a9f86b139a00cf060455f3034942f3febbe739833149d8d90298071cac95fc5b1",
+      "hash_meta": "fe4a0133d43c85d03a23761c49273d645e9b4b4b418e536a9b167a14d2d1f2c2",
+      "seqno": 1289800
+    },
+    "service": {
+      "hostname": "i-otsuki.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.26"
+  },
+  "ctime": 1501346133,
+  "expire_in": 504576000,
+  "prev": "996de304692380f1900d863ab36a7d8bd81da2d71fc18d1a91cbffae5ea0c808",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgd5QgqeopREKiE9SNQy2h08O0Y6ug/thVzcaG+CPn64EKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMmVlZTEzMzYwY2Q1MDNjZTMyOWY2OGQ2N2QwMmQzOTVjN2MzMzc5MmQ5MGRhMDhjZTBhNmQ3ZjFiYTFmZTFmNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzc5NDIwYTllYTI5NDQ0MmEyMTNkNDhkNDMyZGExZDNjM2I0NjNhYmEwZmVkODU1Y2RjNjg2ZjgyM2U3ZWI4MTBhIiwidWlkIjoiMDljZGZlYTFiZGI2Y2IyNzUxZmE2Yzg4ZjM3MzgwMTkiLCJ1c2VybmFtZSI6Imlfb3RzdWtpIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAxMzQ2MDMyLCJoYXNoIjoiMTA1YTkyMzQ2ODI4NWY0ODM3NzUxYjA1MjBlZmYwYmQ0MDU0YjQzMWQzMGJmZmUzM2I4MDUzYWVhMGQwYTA4YTlmODZiMTM5YTAwY2YwNjA0NTVmMzAzNDk0MmYzZmViYmU3Mzk4MzMxNDlkOGQ5MDI5ODA3MWNhYzk1ZmM1YjEiLCJoYXNoX21ldGEiOiJmZTRhMDEzM2Q0M2M4NWQwM2EyMzc2MWM0OTI3M2Q2NDVlOWI0YjRiNDE4ZTUzNmE5YjE2N2ExNGQyZDFmMmMyIiwic2Vxbm8iOjEyODk4MDB9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaS1vdHN1a2kuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjYifSwiY3RpbWUiOjE1MDEzNDYxMzMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiOTk2ZGUzMDQ2OTIzODBmMTkwMGQ4NjNhYjM2YTdkOGJkODFkYTJkNzFmYzE4ZDFhOTFjYmZmYWU1ZWEwYzgwOCIsInNlcW5vIjoyMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDQcLyFY2BCXKbJ9V2ESaEAgx1ExqN2pvaFnG/cU8og637JDFA1shBd0+nhtXC9qdB+ZRnyiE9i/WkGM5GxHq4MqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgweE9527531KyXzAwgVnZxH+91C4P7SDDtjxMFNmq5oqjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/i_otsuki
+
+==================================================================
